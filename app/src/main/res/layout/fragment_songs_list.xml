@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.raj.coding.musicplaylist.Activities.ActivitySongList.SongsListFragment">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/frame_recycler_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_song"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager" />
+
+        <TextView
+            android:id="@+id/empty_songs_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/playlist"
+            android:drawablePadding="@dimen/five_dp"
+            android:drawableTop="@drawable/ic_queue_music_black_24dp"
+            android:text="@string/playlist_empty" />
+    </FrameLayout>
+
+
+</LinearLayout>

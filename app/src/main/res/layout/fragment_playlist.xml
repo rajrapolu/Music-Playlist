@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raj.coding.musicplaylist.Activities.ActivityPlaylist.PlaylistActivityFragment"
+    tools:showIn="@layout/activity_playlist">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/sixteen_dp"
+        android:src="@drawable/ic_add_white_24px" />
+
+    <TextView
+        android:id="@+id/empty_text_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/playlist"
+        android:drawablePadding="@dimen/five_dp"
+        android:drawableTop="@drawable/ic_library_music_black_24dp"
+        android:text="@string/add_playlist_to_start" />
+
+</FrameLayout>

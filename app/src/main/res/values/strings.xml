@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Music Playlist</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="playlist_name_hint">Playlist Name</string>
+    <string name="add_button_text">Add</string>
+    <string name="cancel_button_text">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="playlist_already_exists">Might be that playlist name already exists</string>
+    <string name="playlist_name_mandatory">Playlist should have a name</string>
+    <string name="song_name">song</string>
+    <string name="singer_name">singer</string>
+    <string name="delete">Delete</string>
+    <string name="add_playlist_to_start">Add a playlist to get started</string>
+    <string name="playlist">Playlist</string>
+    <string name="add_songs">Add Songs</string>
+    <string name="playing">Playing</string>
+    <string name="new_playlist">New Playlist</string>
+    <string name="playlist_empty">Playlist is empty. Add songs !!</string>
+</resources>

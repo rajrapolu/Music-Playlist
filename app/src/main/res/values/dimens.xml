@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="text_view_width">350dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="seven_two_dp">72dp</dimen>
+    <dimen name="playlist_text_size">16sp</dimen>
+    <dimen name="add_playlist_text_size">24sp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+</resources>
